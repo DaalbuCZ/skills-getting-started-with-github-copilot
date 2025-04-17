@@ -74,6 +74,41 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.activity-card ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 8px;
+}
+
+.activity-card li {
+  margin-bottom: 4px;
+}
+
+/* Styles for the participants list */
+.participants-list {
+  list-style-type: none; /* Hide bullet points */
+  padding-left: 0; /* Remove default padding */
+  margin-left: 0; /* Remove default margin */
+}
+
+.participant-item {
+  margin-bottom: 5px; /* Add some space between participant items */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-icon {
+  cursor: pointer;
+  margin-left: 10px; /* Add space between email and icon */
+  color: red; /* Make the icon red */
+  font-weight: bold;
+}
+
+.delete-icon:hover {
+  color: darkred; /* Darken icon on hover */
+}
+
 .form-group {
   margin-bottom: 15px;
 }
